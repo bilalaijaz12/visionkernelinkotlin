@@ -1,0 +1,144 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+
+    <aapt:attr name="android:drawable">
+        <vector
+            android:height="24dp"
+            android:viewportHeight="600"
+            android:viewportWidth="600"
+            android:width="24dp">
+
+            <group
+                android:name="letterV"
+                android:pivotX="300"
+                android:pivotY="300">
+                <path
+                    android:name="letterV"
+                    android:fillColor="#231F20"
+                    android:pathData="M150,300 L150,0 L0,0 L0,300 L150,300 Z" />
+            </group>
+
+            <group
+                android:name="letterI"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="150">
+                <path
+                    android:name="letterI"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,0 L0,600 L150,600 L150,0 L0,0 Z" />
+            </group>
+
+            <group
+                android:name="letterS"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="300">
+                <path
+                    android:name="letterS"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,300 C0,150 150,0 300,0 C450,0 600,150 600,300 C600,450 450,600 300,600 C150,600 0,450 0,300 Z" />
+            </group>
+
+            <group
+                android:name="letterI2"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="450">
+                <path
+                    android:name="letterI2"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,0 L0,600 L150,600 L150,0 L0,0 Z" />
+            </group>
+
+            <group
+                android:name="letterO"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="600">
+                <path
+                    android:name="letterO"
+                    android:fillColor="#231F20"
+                    android:pathData="M150,0 C234,0 300,66 300,150 C300,234 234,300 150,300 C66,300 0,234 0,150 C0,66 66,0 150,0 Z" />
+            </group>
+
+            <group
+                android:name="letterN"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="750">
+                <path
+                    android:name="letterN"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,0 L0,600 L100,600 L100,200 L300,400 L300,600 L400,600 L400,0 L300,0 L200,400 L0,0 Z" />
+            </group>
+
+            <group
+                android:name="letterK"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="900">
+                <path
+                    android:name="letterK"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,0 L0,600 L100,600 L200,400 L300,600 L400,600 L300,500 L300,600 L400,600 L400,0 L300,0 L200,300 L100,0 L0,0 Z" />
+            </group>
+
+            <group
+                android:name="letterE"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="1050">
+                <path
+                    android:name="letterE"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,0 L0,600 L500,600 L500,500 L100,500 L100,400 L400,400 L400,300 L100,300 L100,200 L500,200 L500,100 L0,100 L0,0 Z" />
+            </group>
+
+            <group
+                android:name="letterR"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="1200">
+                <path
+                    android:name="letterR"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,0 L0,600 L300,600 L300,400 L200,400 L400,0 L300,0 L200,200 L0,0 Z M300,400 L400,600 L600,600 L600,500 L400,500 L500,400 L600,400 L600,0 L500,0 L400,200 L300,200 Z" />
+            </group>
+
+            <group
+                android:name="letterN2"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="1350">
+                <path
+                    android:name="letterN2"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,0 L0,600 L100,600 L100,0 L0,0 Z M200,300 L200,600 L300,600 L300,0 L200,0 L200,300 Z" />
+            </group>
+
+            <group
+                android:name="letterA"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="1500">
+                <path
+                    android:name="letterA"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,0 L0,600 L100,600 L100,400 L200,400 L200,600 L300,600 L300,0 L200,0 L200,300 L100,300 L100,0 L0,0 Z" />
+            </group>
+
+            <group
+                android:name="letterL"
+                android:pivotX="300"
+                android:pivotY="300"
+                android:translateX="1650">
+                <path
+                    android:name="letterL"
+                    android:fillColor="#231F20"
+                    android:pathData="M0,0 L0,600 L100,600 L100,200 L300,200 L300,100 L100,100 L100,0 L0,0 Z" />
+            </group>
+
+        </vector>
+    </aapt:attr>
+</animated-vector>

@@ -1,0 +1,80 @@
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/splash_background">
+
+    <ImageView
+        android:id="@+id/visionkernel"
+        android:layout_width="375dp"
+        android:layout_height="678dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/drawing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="400dp"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--    abc-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/twitterButton"-->
+    <!--        android:layout_width="63dp"-->
+    <!--        android:layout_height="58dp"-->
+    <!--        android:layout_marginTop="240dp"-->
+    <!--        android:src="@drawable/twittericon"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.045"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/progressBar"-->
+    <!--        app:layout_constraintVertical_bias="0.647" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/facebookButton"-->
+    <!--        android:layout_width="65dp"-->
+    <!--        android:layout_height="59dp"-->
+    <!--        android:src="@drawable/facebookicon"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.921"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/twitterButton"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/progressBar"-->
+    <!--        app:layout_constraintVertical_bias="0.899" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/linkedinbutton"-->
+    <!--        android:layout_width="70dp"-->
+    <!--        android:layout_height="61dp"-->
+    <!--        android:layout_marginStart="24dp"-->
+    <!--        android:layout_marginTop="32dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:src="@drawable/linkedinlogo"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/facebookButton"-->
+    <!--        app:layout_constraintHorizontal_bias="0.464"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/visionkernel"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/progressBar"-->
+    <!--        app:layout_constraintVertical_bias="0.923" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
